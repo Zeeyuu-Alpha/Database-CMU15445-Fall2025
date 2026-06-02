@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/count_min_sketch_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/count_min_sketch_test[1]_tests.cmake")
+else()
+  add_test(count_min_sketch_test_NOT_BUILT count_min_sketch_test_NOT_BUILT)
+endif()

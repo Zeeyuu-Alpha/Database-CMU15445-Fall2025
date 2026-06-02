@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/b_plus_tree_tombstone_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/b_plus_tree_tombstone_test[1]_tests.cmake")
+else()
+  add_test(b_plus_tree_tombstone_test_NOT_BUILT b_plus_tree_tombstone_test_NOT_BUILT)
+endif()

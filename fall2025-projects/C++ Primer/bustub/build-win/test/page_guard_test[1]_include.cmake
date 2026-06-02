@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/page_guard_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/page_guard_test[1]_tests.cmake")
+else()
+  add_test(page_guard_test_NOT_BUILT page_guard_test_NOT_BUILT)
+endif()

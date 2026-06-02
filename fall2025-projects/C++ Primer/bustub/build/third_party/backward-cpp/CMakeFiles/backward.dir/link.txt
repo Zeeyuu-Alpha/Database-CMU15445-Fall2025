@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-15 qc ../../lib/libbackward.a CMakeFiles/backward.dir/backward.cpp.o
+/usr/bin/llvm-ranlib-15 ../../lib/libbackward.a

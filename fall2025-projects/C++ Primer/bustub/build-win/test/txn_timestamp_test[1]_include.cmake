@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/txn_timestamp_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/txn_timestamp_test[1]_tests.cmake")
+else()
+  add_test(txn_timestamp_test_NOT_BUILT txn_timestamp_test_NOT_BUILT)
+endif()

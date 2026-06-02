@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-15 qc ../../lib/libfmtd.a CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/os.cc.o
+/usr/bin/llvm-ranlib-15 ../../lib/libfmtd.a

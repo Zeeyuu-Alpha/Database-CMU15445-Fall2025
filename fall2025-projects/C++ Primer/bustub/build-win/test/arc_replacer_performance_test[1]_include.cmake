@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/arc_replacer_performance_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/arc_replacer_performance_test[1]_tests.cmake")
+else()
+  add_test(arc_replacer_performance_test_NOT_BUILT arc_replacer_performance_test_NOT_BUILT)
+endif()

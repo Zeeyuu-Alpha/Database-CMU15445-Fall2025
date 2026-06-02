@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/rwlatch_test[1]_tests.cmake")
+  include("C:/Users/zeyu6/Desktop/Database/Projects/C++ Primer/bustub/build-win/test/rwlatch_test[1]_tests.cmake")
+else()
+  add_test(rwlatch_test_NOT_BUILT rwlatch_test_NOT_BUILT)
+endif()

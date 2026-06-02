@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-15 qc ../../lib/libutf8proc.a CMakeFiles/utf8proc.dir/utf8proc.c.o
+/usr/bin/llvm-ranlib-15 ../../lib/libutf8proc.a
