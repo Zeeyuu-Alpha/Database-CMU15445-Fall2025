@@ -1,0 +1,876 @@
+{
+  "generated_on": "2026-06-02",
+  "textbook_pdf": "Abraham-Silberschatz-Henry-F.-Korth-S.-Sudarshan-Database-System-Concepts-McGraw-Hill-Education-2019.pdf",
+  "course_schedule_source": "https://15445.courses.cs.cmu.edu/fall2025/schedule.html",
+  "lectures": [
+    {
+      "lecture": 1,
+      "slide_file": "01-relationalmodel.pdf",
+      "title": "Relational Model & Algebra",
+      "output_pdf": "Lecture01-Reference-Textbook.pdf",
+      "slide_focus": "DBMS background, relational model, relational algebra, and alternative data models.",
+      "reading_basis": "CMU schedule: Chapters 1-2; slide agenda adds alternative data model context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            30,
+            59
+          ],
+          "book_pages": [
+            "1",
+            "30"
+          ],
+          "sections": "Chapter 1 Introduction"
+        },
+        {
+          "pdf_pages": [
+            66,
+            88
+          ],
+          "book_pages": [
+            "37",
+            "59"
+          ],
+          "sections": "Chapter 2 Introduction to the Relational Model"
+        },
+        {
+          "pdf_pages": [
+            394,
+            410
+          ],
+          "book_pages": [
+            "365",
+            "381"
+          ],
+          "sections": "Chapter 8.1-8.2 semi-structured/object data models"
+        }
+      ]
+    },
+    {
+      "lecture": 2,
+      "slide_file": "02-modernsql.pdf",
+      "title": "Modern SQL",
+      "output_pdf": "Lecture02-Reference-Textbook.pdf",
+      "slide_focus": "Aggregations, grouping, nested queries, lateral joins, CTEs, and window functions.",
+      "reading_basis": "CMU schedule: Chapters 3-5.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            94,
+            260
+          ],
+          "book_pages": [
+            "65",
+            "231"
+          ],
+          "sections": "Chapters 3-5 SQL, intermediate SQL, and advanced SQL"
+        }
+      ]
+    },
+    {
+      "lecture": 3,
+      "slide_file": "03-storage1.pdf",
+      "title": "Database Storage I",
+      "output_pdf": "Lecture03-Reference-Textbook.pdf",
+      "slide_focus": "Storage hierarchy, file storage, page layout, and tuple layout.",
+      "reading_basis": "CMU schedule: Chapter 12.1-12.4, 13.2-13.3.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            588,
+            598
+          ],
+          "book_pages": [
+            "559",
+            "569"
+          ],
+          "sections": "Chapter 12.1-12.4 physical storage media"
+        },
+        {
+          "pdf_pages": [
+            617,
+            630
+          ],
+          "book_pages": [
+            "588",
+            "601"
+          ],
+          "sections": "Chapter 13.2-13.3 file organization and records"
+        }
+      ]
+    },
+    {
+      "lecture": 4,
+      "slide_file": "04-bufferpool.pdf",
+      "title": "Memory Management",
+      "output_pdf": "Lecture04-Reference-Textbook.pdf",
+      "slide_focus": "Buffer pool organization, metadata, replacement, disk scheduling, and optimizations.",
+      "reading_basis": "CMU schedule: Chapter 13.2-13.5.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            617,
+            639
+          ],
+          "book_pages": [
+            "588",
+            "610"
+          ],
+          "sections": "Chapter 13.2-13.5 file organization, records, and database buffer"
+        }
+      ]
+    },
+    {
+      "lecture": 5,
+      "slide_file": "05-storage2.pdf",
+      "title": "Database Storage II",
+      "output_pdf": "Lecture05-Reference-Textbook.pdf",
+      "slide_focus": "Buffer pool optimizations, tuple-oriented storage, index-organized storage, and log-structured storage.",
+      "reading_basis": "CMU schedule: Chapter 14.8.1, 24.2; slide recap adds tuple/page storage context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            617,
+            630
+          ],
+          "book_pages": [
+            "588",
+            "601"
+          ],
+          "sections": "Chapter 13.2-13.3 tuple-oriented file and record organization"
+        },
+        {
+          "pdf_pages": [
+            663,
+            678
+          ],
+          "book_pages": [
+            "634",
+            "649"
+          ],
+          "sections": "Chapter 14.3 B+-Tree index files / index-organized storage context"
+        },
+        {
+          "pdf_pages": [
+            694,
+            698
+          ],
+          "book_pages": [
+            "665",
+            "669"
+          ],
+          "sections": "Chapter 14.8 write-optimized index structures"
+        },
+        {
+          "pdf_pages": [
+            1205,
+            1210
+          ],
+          "book_pages": [
+            "1176",
+            "1181"
+          ],
+          "sections": "Chapter 24.2 log-structured merge tree and variants"
+        }
+      ]
+    },
+    {
+      "lecture": 6,
+      "slide_file": "06-storage3.pdf",
+      "title": "Storage Models & Compression",
+      "output_pdf": "Lecture06-Reference-Textbook.pdf",
+      "slide_focus": "OLTP/OLAP workloads, row vs. column storage models, and compression.",
+      "reading_basis": "CMU schedule: Chapter 11.2, 13.6; slide agenda adds OLAP and compression context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            550,
+            568
+          ],
+          "book_pages": [
+            "521",
+            "539"
+          ],
+          "sections": "Chapter 11.2-11.3 data warehousing and OLAP"
+        },
+        {
+          "pdf_pages": [
+            640,
+            643
+          ],
+          "book_pages": [
+            "611",
+            "614"
+          ],
+          "sections": "Chapter 13.6 column-oriented storage"
+        },
+        {
+          "pdf_pages": [
+            699,
+            700
+          ],
+          "book_pages": [
+            "670",
+            "671"
+          ],
+          "sections": "Chapter 14.9 bitmap indices as compression/filtering-adjacent storage"
+        }
+      ]
+    },
+    {
+      "lecture": 7,
+      "slide_file": "07-hashtables.pdf",
+      "title": "Hash Tables",
+      "output_pdf": "Lecture07-Reference-Textbook.pdf",
+      "slide_focus": "Hash functions, static hashing, and dynamic hashing schemes.",
+      "reading_basis": "CMU schedule: Chapter 14.5, 24.5.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            687,
+            689
+          ],
+          "book_pages": [
+            "658",
+            "660"
+          ],
+          "sections": "Chapter 14.5 hash indices"
+        },
+        {
+          "pdf_pages": [
+            1219,
+            1231
+          ],
+          "book_pages": [
+            "1190",
+            "1202"
+          ],
+          "sections": "Chapter 24.5 hash indices"
+        }
+      ]
+    },
+    {
+      "lecture": 8,
+      "slide_file": "08-indexes1.pdf",
+      "title": "Indexes & Filters I",
+      "output_pdf": "Lecture08-Reference-Textbook.pdf",
+      "slide_focus": "B+-Tree overview, design choices, insertion/deletion, and optimizations.",
+      "reading_basis": "CMU schedule: Chapter 14.1-14.4.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            652,
+            686
+          ],
+          "book_pages": [
+            "623",
+            "657"
+          ],
+          "sections": "Chapter 14.1-14.4 indexing basics, ordered indices, B+-Trees, and B+-Tree extensions"
+        }
+      ]
+    },
+    {
+      "lecture": 9,
+      "slide_file": "09-indexes2.pdf",
+      "title": "Indexes & Filters II",
+      "output_pdf": "Lecture09-Reference-Textbook.pdf",
+      "slide_focus": "Bloom filters, skip lists, tries/radix trees, inverted indexes, vector indexes, and covering indexes.",
+      "reading_basis": "CMU schedule: Chapter 14.1-14.4, 24.1; slide topics add textual and spatial/index variants.",
+      "note": "The textbook has limited direct coverage of skip lists, radix trees, and modern vector indexes.",
+      "ranges": [
+        {
+          "pdf_pages": [
+            411,
+            415
+          ],
+          "book_pages": [
+            "382",
+            "386"
+          ],
+          "sections": "Chapter 8.3 textual data and inverted-index context"
+        },
+        {
+          "pdf_pages": [
+            652,
+            686
+          ],
+          "book_pages": [
+            "623",
+            "657"
+          ],
+          "sections": "Chapter 14.1-14.4 indexing basics and B+-Tree context"
+        },
+        {
+          "pdf_pages": [
+            1204,
+            1204
+          ],
+          "book_pages": [
+            "1175",
+            "1175"
+          ],
+          "sections": "Chapter 24.1 Bloom filter"
+        },
+        {
+          "pdf_pages": [
+            1211,
+            1218
+          ],
+          "book_pages": [
+            "1182",
+            "1189"
+          ],
+          "sections": "Chapter 24.3-24.4 bitmap and spatial indexing variants"
+        }
+      ]
+    },
+    {
+      "lecture": 10,
+      "slide_file": "10-indexconcurrency.pdf",
+      "title": "Index Concurrency Control",
+      "output_pdf": "Lecture10-Reference-Textbook.pdf",
+      "slide_focus": "Latches, hash table latching, B+-Tree latch crabbing/coupling, and leaf scans.",
+      "reading_basis": "CMU schedule: Chapter 18.10.2; B+-Tree structure pages included for context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            663,
+            686
+          ],
+          "book_pages": [
+            "634",
+            "657"
+          ],
+          "sections": "Chapter 14.3-14.4 B+-Tree structures and extensions"
+        },
+        {
+          "pdf_pages": [
+            914,
+            919
+          ],
+          "book_pages": [
+            "885",
+            "890"
+          ],
+          "sections": "Chapter 18.10.2-18.10.3 concurrency in index structures and latch-free structures"
+        }
+      ]
+    },
+    {
+      "lecture": 11,
+      "slide_file": "11-sorting.pdf",
+      "title": "Sorting & Aggregation Algorithms",
+      "output_pdf": "Lecture11-Reference-Textbook.pdf",
+      "slide_focus": "Top-N heap sort, external merge sort, and aggregation algorithms.",
+      "reading_basis": "CMU schedule: Chapter 15.4-15.5; slide agenda adds aggregations from 15.6.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            730,
+            752
+          ],
+          "book_pages": [
+            "701",
+            "723"
+          ],
+          "sections": "Chapter 15.4-15.6 sorting, join operation, and other operations including aggregation"
+        }
+      ]
+    },
+    {
+      "lecture": 12,
+      "slide_file": "12-joins.pdf",
+      "title": "Join Algorithms",
+      "output_pdf": "Lecture12-Reference-Textbook.pdf",
+      "slide_focus": "Nested-loop joins, sort-merge join, hash join, and join cost analysis.",
+      "reading_basis": "CMU schedule: Chapter 15.4-15.6.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            730,
+            752
+          ],
+          "book_pages": [
+            "701",
+            "723"
+          ],
+          "sections": "Chapter 15.4-15.6 sorting and join/other query operations"
+        }
+      ]
+    },
+    {
+      "lecture": 13,
+      "slide_file": "13-queryexecution1.pdf",
+      "title": "Query Execution I",
+      "output_pdf": "Lecture13-Reference-Textbook.pdf",
+      "slide_focus": "Processing models, access methods, modification queries, and expression evaluation.",
+      "reading_basis": "CMU schedule: Chapter 15.1-15.3, 15.7.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            718,
+            729
+          ],
+          "book_pages": [
+            "689",
+            "700"
+          ],
+          "sections": "Chapter 15.1-15.3 query processing overview, cost, and selection"
+        },
+        {
+          "pdf_pages": [
+            753,
+            759
+          ],
+          "book_pages": [
+            "724",
+            "730"
+          ],
+          "sections": "Chapter 15.7 evaluation of expressions"
+        }
+      ]
+    },
+    {
+      "lecture": 14,
+      "slide_file": "14-queryexecution2.pdf",
+      "title": "Query Execution II",
+      "output_pdf": "Lecture14-Reference-Textbook.pdf",
+      "slide_focus": "Process models, execution parallelism, and I/O parallelism.",
+      "reading_basis": "CMU schedule: Chapter 22; slide agenda adds process-model context from architectures.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            990,
+            1018
+          ],
+          "book_pages": [
+            "961",
+            "989"
+          ],
+          "sections": "Chapter 20.1-20.6 database-system architectures and parallel/distributed systems"
+        },
+        {
+          "pdf_pages": [
+            1068,
+            1117
+          ],
+          "book_pages": [
+            "1039",
+            "1088"
+          ],
+          "sections": "Chapter 22 parallel and distributed query processing"
+        }
+      ]
+    },
+    {
+      "lecture": 15,
+      "slide_file": "15-optimization1.pdf",
+      "title": "Query Planning & Optimization I",
+      "output_pdf": "Lecture15-Reference-Textbook.pdf",
+      "slide_focus": "Transformations, heuristic/rule-based optimization, and cost-based optimization.",
+      "reading_basis": "CMU schedule: Chapter 16.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            772,
+            817
+          ],
+          "book_pages": [
+            "743",
+            "788"
+          ],
+          "sections": "Chapter 16 query optimization"
+        }
+      ]
+    },
+    {
+      "lecture": 16,
+      "slide_file": "16-optimization2.pdf",
+      "title": "Query Planning & Optimization II",
+      "output_pdf": "Lecture16-Reference-Textbook.pdf",
+      "slide_focus": "Optimizer search algorithms, data statistics, cardinality estimation, and cost models.",
+      "reading_basis": "CMU schedule: Chapter 16.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            772,
+            817
+          ],
+          "book_pages": [
+            "743",
+            "788"
+          ],
+          "sections": "Chapter 16 query optimization"
+        }
+      ]
+    },
+    {
+      "lecture": 17,
+      "slide_file": "17-concurrencycontrol.pdf",
+      "title": "Concurrency Control Theory",
+      "output_pdf": "Lecture17-Reference-Textbook.pdf",
+      "slide_focus": "ACID, schedules, conflict/view serializability, and isolation.",
+      "reading_basis": "Slide content maps to textbook Chapter 17 Transactions; CMU schedule lists Chapter 18 in the current course page.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            828,
+            859
+          ],
+          "book_pages": [
+            "799",
+            "830"
+          ],
+          "sections": "Chapter 17 transactions, isolation, serializability, and isolation levels"
+        }
+      ]
+    },
+    {
+      "lecture": 18,
+      "slide_file": "18-twophaselocking.pdf",
+      "title": "Two-Phase Locking",
+      "output_pdf": "Lecture18-Reference-Textbook.pdf",
+      "slide_focus": "Lock types, two-phase locking, deadlock detection/prevention, and hierarchical locking.",
+      "reading_basis": "CMU schedule: Chapter 18.1-18.3, 18.9.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            864,
+            885
+          ],
+          "book_pages": [
+            "835",
+            "856"
+          ],
+          "sections": "Chapter 18.1-18.3 lock-based protocols, deadlock, and multiple granularity"
+        },
+        {
+          "pdf_pages": [
+            909,
+            911
+          ],
+          "book_pages": [
+            "880",
+            "882"
+          ],
+          "sections": "Chapter 18.9 weak levels of consistency in practice"
+        }
+      ]
+    },
+    {
+      "lecture": 19,
+      "slide_file": "19-timestampordering.pdf",
+      "title": "Timestamp Ordering",
+      "output_pdf": "Lecture19-Reference-Textbook.pdf",
+      "slide_focus": "Timestamp ordering, optimistic/validation-based concurrency control, phantom reads, and isolation levels.",
+      "reading_basis": "CMU schedule: Chapter 18.5-18.6; slide agenda adds phantom/isolation context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            850,
+            854
+          ],
+          "book_pages": [
+            "821",
+            "825"
+          ],
+          "sections": "Chapter 17.8-17.9 isolation levels and implementation"
+        },
+        {
+          "pdf_pages": [
+            886,
+            897
+          ],
+          "book_pages": [
+            "857",
+            "868"
+          ],
+          "sections": "Chapter 18.4-18.6 predicate reads, timestamp-based, and validation-based protocols"
+        }
+      ]
+    },
+    {
+      "lecture": 20,
+      "slide_file": "20-multiversioning.pdf",
+      "title": "Multi-Version Concurrency Control",
+      "output_pdf": "Lecture20-Reference-Textbook.pdf",
+      "slide_focus": "MVCC, snapshot isolation, write skew, version storage, and garbage collection.",
+      "reading_basis": "CMU schedule: Chapter 18.7-18.8.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            898,
+            908
+          ],
+          "book_pages": [
+            "869",
+            "879"
+          ],
+          "sections": "Chapter 18.7-18.8 multiversion schemes and snapshot isolation"
+        }
+      ]
+    },
+    {
+      "lecture": 21,
+      "slide_file": "21-logging.pdf",
+      "title": "Database Logging",
+      "output_pdf": "Lecture21-Reference-Textbook.pdf",
+      "slide_focus": "Buffer pool policies, shadow paging, WAL, logging schemes, and checkpoints.",
+      "reading_basis": "CMU schedule: Chapter 19.1-19.8.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            936,
+            969
+          ],
+          "book_pages": [
+            "907",
+            "940"
+          ],
+          "sections": "Chapter 19.1-19.8 recovery system, logging, buffer management, and logical undo"
+        }
+      ]
+    },
+    {
+      "lecture": 22,
+      "slide_file": "22-recovery.pdf",
+      "title": "Database Recovery",
+      "output_pdf": "Lecture22-Reference-Textbook.pdf",
+      "slide_focus": "LSNs, commit/abort handling, fuzzy checkpointing, and ARIES recovery.",
+      "reading_basis": "CMU schedule: Chapter 19.1-19.9.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            936,
+            975
+          ],
+          "book_pages": [
+            "907",
+            "946"
+          ],
+          "sections": "Chapter 19.1-19.9 recovery system and ARIES"
+        }
+      ]
+    },
+    {
+      "lecture": 23,
+      "slide_file": "23-distributed1.pdf",
+      "title": "Distributed Database Systems I",
+      "output_pdf": "Lecture23-Reference-Textbook.pdf",
+      "slide_focus": "System architectures, partitioning, replication, and distributed concurrency control.",
+      "reading_basis": "CMU schedule: Chapter 20.4-20.5, 21, 23.1-23.4.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            999,
+            1017
+          ],
+          "book_pages": [
+            "970",
+            "988"
+          ],
+          "sections": "Chapter 20.4-20.5 parallel and distributed systems"
+        },
+        {
+          "pdf_pages": [
+            1032,
+            1061
+          ],
+          "book_pages": [
+            "1003",
+            "1032"
+          ],
+          "sections": "Chapter 21 parallel and distributed storage"
+        },
+        {
+          "pdf_pages": [
+            1127,
+            1157
+          ],
+          "book_pages": [
+            "1098",
+            "1128"
+          ],
+          "sections": "Chapter 23.1-23.4 distributed transactions, commit protocols, concurrency, and replication"
+        }
+      ]
+    },
+    {
+      "lecture": 24,
+      "slide_file": "24-distributed2.pdf",
+      "title": "Distributed Database Systems II",
+      "output_pdf": "Lecture24-Reference-Textbook.pdf",
+      "slide_focus": "Atomic commit, consistency issues, distributed joins, distributed query processing, and shuffle.",
+      "reading_basis": "CMU schedule: Chapter 20.7, 22.9; slide agenda adds commit, consensus, and distributed join context.",
+      "note": "",
+      "ranges": [
+        {
+          "pdf_pages": [
+            1019,
+            1023
+          ],
+          "book_pages": [
+            "990",
+            "994"
+          ],
+          "sections": "Chapter 20.7 cloud-based services"
+        },
+        {
+          "pdf_pages": [
+            1070,
+            1089
+          ],
+          "book_pages": [
+            "1041",
+            "1060"
+          ],
+          "sections": "Chapter 22.2-22.5 parallel sort/join and parallel plan evaluation"
+        },
+        {
+          "pdf_pages": [
+            1105,
+            1114
+          ],
+          "book_pages": [
+            "1076",
+            "1085"
+          ],
+          "sections": "Chapter 22.9 distributed query processing"
+        },
+        {
+          "pdf_pages": [
+            1127,
+            1139
+          ],
+          "book_pages": [
+            "1098",
+            "1110"
+          ],
+          "sections": "Chapter 23.1-23.2 distributed transactions and commit protocols"
+        },
+        {
+          "pdf_pages": [
+            1162,
+            1190
+          ],
+          "book_pages": [
+            "1133",
+            "1161"
+          ],
+          "sections": "Chapter 23.6-23.8 weak consistency, coordinator selection, and consensus"
+        }
+      ]
+    },
+    {
+      "lecture": 25,
+      "slide_file": "25-potpourri.pdf",
+      "title": "Final Review + Systems Potpourri",
+      "output_pdf": "Lecture25-Reference-Textbook.pdf",
+      "slide_focus": "Final review plus advanced DBMS speed-run: vectorized execution, cloud OLAP systems, shuffle, storage engines, and tuning.",
+      "reading_basis": "No CMU schedule reading listed; selected closest textbook sections from prior and advanced chapters.",
+      "note": "This lecture is partly a course review and partly modern-system case studies, so the textbook match is intentionally selective.",
+      "ranges": [
+        {
+          "pdf_pages": [
+            550,
+            568
+          ],
+          "book_pages": [
+            "521",
+            "539"
+          ],
+          "sections": "Chapter 11.2-11.3 data warehousing and OLAP"
+        },
+        {
+          "pdf_pages": [
+            640,
+            643
+          ],
+          "book_pages": [
+            "611",
+            "614"
+          ],
+          "sections": "Chapter 13.6 column-oriented storage"
+        },
+        {
+          "pdf_pages": [
+            760,
+            762
+          ],
+          "book_pages": [
+            "731",
+            "733"
+          ],
+          "sections": "Chapter 15.8 query processing in memory"
+        },
+        {
+          "pdf_pages": [
+            1019,
+            1023
+          ],
+          "book_pages": [
+            "990",
+            "994"
+          ],
+          "sections": "Chapter 20.7 cloud-based services"
+        },
+        {
+          "pdf_pages": [
+            1081,
+            1114
+          ],
+          "book_pages": [
+            "1052",
+            "1085"
+          ],
+          "sections": "Chapter 22.5-22.9 parallel/distributed query plans and distributed query processing"
+        },
+        {
+          "pdf_pages": [
+            1204,
+            1214
+          ],
+          "book_pages": [
+            "1175",
+            "1185"
+          ],
+          "sections": "Chapter 24.1-24.3 Bloom filters, LSM variants, and bitmap indices"
+        },
+        {
+          "pdf_pages": [
+            1239,
+            1262
+          ],
+          "book_pages": [
+            "1210",
+            "1233"
+          ],
+          "sections": "Chapter 25.1-25.2 performance tuning and benchmarks"
+        }
+      ]
+    }
+  ]
+}
