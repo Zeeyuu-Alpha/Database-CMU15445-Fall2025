@@ -40,6 +40,6 @@
 
 | Resource | Link |
 | --- | --- |
-| Slides | [fall2025-slides](fall2025-slides) |
-| Projects | [fall2025-projects](fall2025-projects) |
+| Slides | [slides](slides) |
+| Projects | [projects](projects) |
 | Textbook | [Database System Concepts PDF](Abraham-Silberschatz-Henry-F.-Korth-S.-Sudarshan-Database-System-Concepts-McGraw-Hill-Education-2019.pdf) |
